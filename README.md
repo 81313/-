@@ -4,10 +4,10 @@
 app = Flask(__name__)
 base_url = "https://qry.nfu.edu.tw/"
 ```
-**建立 Flask Web 伺服器**
+**建立 Flask Web 伺服器**  
 **base_url用於補齊原網站上相對路徑的CSS或連結（因為官方網站的 CSS 大多是相對路徑，如果不修正會導致前端顯示錯誤）**
 
-🟦 2. get_chrome_options() ─ 設定 Selenium 的 ChromeDriver
+# 🟦 2. get_chrome_options() ─ 設定 Selenium 的 ChromeDriver  
 此函式負責建立 Chrome 無頭模式設定。
 
 包含：
